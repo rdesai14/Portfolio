@@ -3,6 +3,8 @@
  * Displays hobbies in a grid layout with subtle asymmetry
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 import { Hobby } from '@/types'
 

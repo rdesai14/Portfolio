@@ -3,6 +3,8 @@
  * Displays contact information and social links
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 import SectionHeader from '../SectionHeader'
 import { ContactLink } from '@/types'

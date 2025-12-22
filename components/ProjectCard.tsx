@@ -4,6 +4,8 @@
  * Implements subtle asymmetry in layout
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 import { Project } from '@/types'
 

@@ -4,6 +4,8 @@
  * Supports alternating alignment for visual interest
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 import { Experience, Education, Leadership } from '@/types'
 

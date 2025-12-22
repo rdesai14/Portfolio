@@ -4,6 +4,8 @@
  * Provides consistent typography and spacing hierarchy
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 
 interface SectionHeaderProps {

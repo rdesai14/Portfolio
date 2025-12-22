@@ -3,6 +3,8 @@
  * Displays skills organized by category in a grid layout
  */
 
+'use client'
+
 import { motion } from 'framer-motion'
 import SectionHeader from '../SectionHeader'
 import { Skill } from '@/types'
