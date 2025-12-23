@@ -13,10 +13,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen bg-white dark:bg-[#0a0a0a] text-gray-900 dark:text-gray-100">
-      {/* Main container with subtle asymmetric margins */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {children}
-      </div>
+      {children}
     </div>
   )
 }

@@ -46,7 +46,7 @@ export default function TimelineEntry({
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className={`relative mb-12 ${alignment} max-w-2xl`}
+      className={`relative mb-8 ${alignment} max-w-2xl`}
     >
       {/* Timeline dot */}
       <div className="absolute left-0 top-2 w-3 h-3 bg-gray-900 dark:bg-gray-100 rounded-full border-4 border-white dark:border-[#0a0a0a] hidden md:block" />

@@ -13,7 +13,7 @@ interface HobbiesSectionProps {
 
 export default function HobbiesSection({ hobbies }: HobbiesSectionProps) {
   return (
-    <section id="hobbies" className="py-24">
+    <section id="hobbies" className="py-16">
       <SectionHeader
         title="Hobbies"
         subtitle="What I do beyond code"

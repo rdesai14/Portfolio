@@ -15,7 +15,7 @@ export default function LeadershipSection({
   leadership,
 }: LeadershipSectionProps) {
   return (
-    <section id="leadership" className="py-24">
+    <section id="leadership" className="py-16">
       <SectionHeader
         title="Leadership & Mentorship"
         subtitle="Guiding others and making an impact"
@@ -25,7 +25,7 @@ export default function LeadershipSection({
         {/* Timeline line */}
         <div className="absolute left-1.5 top-0 bottom-0 w-0.5 bg-gray-300 dark:bg-gray-700 hidden md:block" />
         
-        <div className="space-y-0">
+        <div className="space-y-4">
           {leadership.map((role, index) => (
             <TimelineEntry key={role.id} entry={role} index={index} />
           ))}

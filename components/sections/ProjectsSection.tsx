@@ -13,13 +13,13 @@ interface ProjectsSectionProps {
 
 export default function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-16">
       <SectionHeader
         title="Featured Projects"
         subtitle="Real-world problems, impactful solutions"
         align="left"
       />
-      <div className="space-y-0">
+      <div className="space-y-8">
         {projects.map((project, index) => (
           <ProjectCard key={project.id} project={project} index={index} />
         ))}

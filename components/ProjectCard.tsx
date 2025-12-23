@@ -25,7 +25,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{ duration: 0.6, delay: index * 0.15 }}
-      className={`mb-12 ${cardAlignment} max-w-3xl`}
+      className={`${cardAlignment} max-w-3xl`}
     >
       <div className="bg-gray-50 dark:bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-800">
         {/* Header */}

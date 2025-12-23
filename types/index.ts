@@ -66,3 +66,19 @@ export interface ContactLink {
   icon?: string
 }
 
+export interface ProgrammingLanguage {
+  name: string
+  proficiency: number // 0-100 percentage
+}
+
+export interface PersonalMetadata {
+  name: string
+  title: string
+  residence?: string
+  university?: string
+  major?: string
+  expectedGraduation?: string
+  age?: number
+  email?: string
+}
+

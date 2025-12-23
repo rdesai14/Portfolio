@@ -11,6 +11,8 @@ import {
   Leadership,
   Hobby,
   ContactLink,
+  ProgrammingLanguage,
+  PersonalMetadata,
 } from '@/types'
 
 export const projects: Project[] = [
@@ -295,4 +297,25 @@ export const personalInfo = {
   bio: 'Building scalable systems and solving complex problems. Passionate about clean code, distributed systems, and continuous learning.',
   profileImage: '/profile.jpg', // Place your profile image in public/profile.jpg
 }
+
+// Personal metadata for left sidebar
+export const personalMetadata: PersonalMetadata = {
+  name: 'Your Name',
+  title: 'Software Engineer & Problem Solver',
+  residence: 'City, State',
+  university: 'University Name',
+  major: 'Computer Science',
+  expectedGraduation: '2024',
+  age: 22,
+  email: 'your.email@example.com',
+}
+
+// Programming languages with proficiency levels (0-100)
+export const programmingLanguages: ProgrammingLanguage[] = [
+  { name: 'Python', proficiency: 90 },
+  { name: 'Java', proficiency: 85 },
+  { name: 'C#', proficiency: 80 },
+  { name: 'JavaScript', proficiency: 95 },
+  { name: 'HTML/CSS', proficiency: 90 },
+]
 
